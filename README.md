@@ -4,7 +4,7 @@ GetDataCourseProject
 Programming Assignment for the 'Data Science' course 'Getting and Cleaning Data'
 
 ## Run Script : 
-run_analysis.R
+**run_analysis.R**
 ## Output file : 
 **SubjectwiseActivityVariablewiseAVGs.csv**
 ## Input : 
