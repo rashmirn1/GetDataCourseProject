@@ -3,9 +3,12 @@ GetDataCourseProject
 
 Programming Assignment for the 'Data Science' course 'Getting and Cleaning Data'
 
-## Run Script : run_analysis.R
-## Output file : SubjectwiseActivityVariablewiseAVGs.csv
-## Input : Files contained in the Samsung HAR data set
+## Run Script : 
+run_analysis.R
+## Output file : 
+**SubjectwiseActivityVariablewiseAVGs.csv**
+## Input : 
+Files contained in the Samsung HAR data set
 
 ## Transformation Logic included in the script
 
