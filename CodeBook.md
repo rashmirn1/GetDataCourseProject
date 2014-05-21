@@ -73,11 +73,11 @@
 67	frequencyDomainDerivedEuclideanBodyAngularVelocityStddev  
 68	subject  
 
-### Cleaning up the raw data and transforming it into a tidy dataset
-> The original variable names in the raw data were cryptic e.g. V45. Even the features list provided contained cryptic and error prone feature names. 
-> The script rectifies the errors in the feature names in features.txt.
-> The script expands the provided cryptic feature names from features.txt into reader-friendly, easily understandable variable names.
-> The script merges the training and test data sets into one after extracting only the mean and standard deviation for each measurement..
-> The script then replaces the cryptic variable names of the data set with reader-friendly, easily understandable variable names.
-> The script creates a second, independent tidy data set with the average of each activity variable for each subject and writes it to the file mentioned earlier.
+### The Transformations :
+(*) The original variable names in the raw data were cryptic e.g. V45. Even the features list provided contained cryptic and error prone feature names.   
+(*) The script rectifies the errors in the feature names in features.txt.  
+(*) The script expands the provided cryptic feature names from features.txt into reader-friendly, easily understandable variable names.  
+(*) The script merges the training and test data sets into one after extracting only the mean and standard deviation for each measurement.  .
+(*) The script then replaces the cryptic variable names of the data set with reader-friendly, easily understandable variable names.  
+(*) The script creates a second, independent tidy data set with the average of each activity variable for each subject and writes it to the file mentioned earlier.  
 
