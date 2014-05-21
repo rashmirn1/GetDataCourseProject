@@ -4,8 +4,8 @@
  The output file **SubjectwiseActivityVariablewiseAVGs.csv** contains the tidy data set as per the assignmentinstructions. 
  This data set contains the Activityvariablewise averages for the activities performed by each of the 30 subjects.
 ### The averaged variables included in the tidy dataset are as given below :
-1 	Group.1  
-2 	timeDomainBodyAccelerationSignalMeanAlongXaxis  
+1. 	Group.1  
+2. 	timeDomainBodyAccelerationSignalMeanAlongXaxis  
 3 	timeDomainBodyAccelerationSignalMeanAlongYaxis  
 4 	timeDomainBodyAccelerationSignalMeanAlongZaxis  
 5 	timeDomainBodyAccelerationSignalStddevAlongXaxis  
