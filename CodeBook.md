@@ -1,34 +1,34 @@
  Code Book
 ================================================
-##  the data,
-### The output file SubjectwiseActivityVariablewiseAVGs.csv contains the tidy data set as per the assignmentinstructions. 
-### This data set contains the Activityvariablewise averages for the activities performed by each of the 30 subjects.
-## The averaged variables included in the tidy dataset are as given below :
-1 	Group.1
-2 	timeDomainBodyAccelerationSignalMeanAlongXaxis
-3 	timeDomainBodyAccelerationSignalMeanAlongYaxis
-4 	timeDomainBodyAccelerationSignalMeanAlongZaxis
-5 	timeDomainBodyAccelerationSignalStddevAlongXaxis
-6 	timeDomainBodyAccelerationSignalStddevAlongYaxis
-7 	timeDomainBodyAccelerationSignalStddevAlongZaxis
-8 	timeDomainGravityAccelerationMeanAlongXaxis
-9 	timeDomainGravityAccelerationMeanAlongYaxis
-10 	timeDomainGravityAccelerationMeanAlongZaxis
-11 	timeDomainGravityAccelerationStddevAlongXaxis
-12 	timeDomainGravityAccelerationStddevAlongYaxis
-13 	timeDomainGravityAccelerationStddevAlongZaxis
-14 	timeDomainDerivedBodyLinearAccelerationMeanAlongXaxis
-15 	timeDomainDerivedBodyLinearAccelerationMeanAlongYaxis
-16 	timeDomainDerivedBodyLinearAccelerationMeanAlongZaxis
-17 	timeDomainDerivedBodyLinearAccelerationStddevAlongXaxis
-18 	timeDomainDerivedBodyLinearAccelerationStddevAlongYaxis
-19 	timeDomainDerivedBodyLinearAccelerationStddevAlongZaxis
-20 	timeDomainBodyAngularVelocitySignalMeanAlongXaxis
-21 	timeDomainBodyAngularVelocitySignalMeanAlongYaxis
-22 	timeDomainBodyAngularVelocitySignalMeanAlongZaxis
-23 	timeDomainBodyAngularVelocitySignalStddevAlongXaxis
-24 	timeDomainBodyAngularVelocitySignalStddevAlongYaxis
-25 	timeDomainBodyAngularVelocitySignalStddevAlongZaxis
+###  The data,
+ The output file SubjectwiseActivityVariablewiseAVGs.csv contains the tidy data set as per the assignmentinstructions. 
+ This data set contains the Activityvariablewise averages for the activities performed by each of the 30 subjects.
+### The averaged variables included in the tidy dataset are as given below :
+1 	Group.1  
+2 	timeDomainBodyAccelerationSignalMeanAlongXaxis  
+3 	timeDomainBodyAccelerationSignalMeanAlongYaxis  
+4 	timeDomainBodyAccelerationSignalMeanAlongZaxis  
+5 	timeDomainBodyAccelerationSignalStddevAlongXaxis  
+6 	timeDomainBodyAccelerationSignalStddevAlongYaxis  
+7 	timeDomainBodyAccelerationSignalStddevAlongZaxis  
+8 	timeDomainGravityAccelerationMeanAlongXaxis  
+9 	timeDomainGravityAccelerationMeanAlongYaxis  
+10 	timeDomainGravityAccelerationMeanAlongZaxis  
+11 	timeDomainGravityAccelerationStddevAlongXaxis  
+12 	timeDomainGravityAccelerationStddevAlongYaxis  
+13 	timeDomainGravityAccelerationStddevAlongZaxis  
+14 	timeDomainDerivedBodyLinearAccelerationMeanAlongXaxis  
+15 	timeDomainDerivedBodyLinearAccelerationMeanAlongYaxis  
+16 	timeDomainDerivedBodyLinearAccelerationMeanAlongZaxis  
+17 	timeDomainDerivedBodyLinearAccelerationStddevAlongXaxis  
+18 	timeDomainDerivedBodyLinearAccelerationStddevAlongYaxis  
+19 	timeDomainDerivedBodyLinearAccelerationStddevAlongZaxis  
+20 	timeDomainBodyAngularVelocitySignalMeanAlongXaxis  
+21 	timeDomainBodyAngularVelocitySignalMeanAlongYaxis  
+22 	timeDomainBodyAngularVelocitySignalMeanAlongZaxis  
+23 	timeDomainBodyAngularVelocitySignalStddevAlongXaxis  
+24 	timeDomainBodyAngularVelocitySignalStddevAlongYaxis  
+25 	timeDomainBodyAngularVelocitySignalStddevAlongZaxis  
 26	timeDomainDerivedBodyAngularVelocityMeanAlongXaxis
 27	timeDomainDerivedBodyAngularVelocityMeanAlongYaxis
 28	timeDomainDerivedBodyAngularVelocityMeanAlongZaxis
