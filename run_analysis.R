@@ -1,3 +1,4 @@
+library(plyr)
 ## load the feature and activity labels/descriptions
 features <- read.table("features.txt") # 561 rows
 actlab <- read.table("activity_labels.txt") # 6 rows
@@ -73,5 +74,13 @@ y <- rbind(ytrain,ytest)
 sub <- rbind(subtrain,subtest)
 Xsub <- cbind(Xmeansd,sub)
 names(Xsub) <- c(names(Xmeansd),"subject")
-Xsubaggr <- aggregate(x = Xsub, by = list(Xsub$subject), FUN = "mean")
+ylab <- join(y,actlab)
+Xsubylab <- cbind(Xsub,as.character(ylab$V2))
+names(Xsubylab) <- c(names(Xsub),"activity")
+Xaggr <- aggregate(x = Xmeansd, by = list(Xsubylab$subject,Xsubylab$activity), FUN = "mean")
+nameaggr <- names(Xaggr)
+nameaggr[1] <- "subject"
+nameaggr[2] <- "activity"
+Xsubaggr <- Xaggr
+names(Xsubaggr) <- nameaggr
 write.csv(Xsubaggr,"SubjectwiseActivityVariablewiseAVGs.csv")
