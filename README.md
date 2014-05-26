@@ -20,5 +20,7 @@ Files contained in the Samsung HAR data set
 4. Expand the cryptic feature names from features table into reader-friendly, easily understandable variable names.
 5. Merges the training and test data sets into one after extracting only variables for the mean and standard deviation for each measurement..
 6. Replace the cryptic variable names of the data set with reader-friendly, easily understandable variable names.
-7. Finally create a second, independent tidy data set with the average of each activity variable for each subject and writes it to the output file mentioned above/
+7. Match each subject to the corresponding activity.
+8. Finally create a second, independent tidy data set with the average of each activity variable for each subject and activity. 
+9. Write the tidy dataset to the output file mentioned above/
 
